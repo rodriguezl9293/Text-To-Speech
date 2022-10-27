@@ -12,6 +12,11 @@ Step 3: Run the program and desired text should be read aloud.
 
 Request Data: You will request Data by opening the text file and reading what is in the text file.
 
+  i.e: answer = open("sample.txt")
+
 Receive Data: Data will be received when read, and the program will read the data(text) aloud.
+
+  i.e: x = answer.read()
+       text_speech.say(x)
 
 <img width="718" alt="Screen Shot 2022-10-27 at 2 25 05 PM" src="https://user-images.githubusercontent.com/97166538/198401216-af198fd4-d9fe-4d1a-adc3-501c899854fc.png">
