@@ -1,8 +1,18 @@
 import pyttsx3
 
-text_speech = pyttsx3.init()
+# create an event loop
+while True:
+  
+  text_speech = pyttsx3.init()
 
-answer = open("sample.txt")
-x = answer.read()
-text_speech.say(x)
-text_speech.runAndWait()
+  # open the text file
+  answer = open("sample.txt")
+  
+  # if the text file is not empty will proceed with text to speech
+  if answer != "":
+    x = answer.read()
+    text_speech.say(x)
+    text_speech.runAndWait()
+    
+    with open("sample.text"):
+      pass
