@@ -14,5 +14,5 @@ while True:
     text_speech.say(x)
     text_speech.runAndWait()
     
-    with open("sample.text"):
+    answer = open("sample.txt")
       pass
