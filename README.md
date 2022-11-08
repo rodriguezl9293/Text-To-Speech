@@ -19,4 +19,4 @@ Receive Data: Data will be received when read, and the program will read the dat
   i.e: x = answer.read()
        text_speech.say(x)
 
-<img width="718" alt="Screen Shot 2022-10-27 at 2 25 05 PM" src="https://user-images.githubusercontent.com/97166538/198401216-af198fd4-d9fe-4d1a-adc3-501c899854fc.png">
+![image](https://user-images.githubusercontent.com/97166538/200644582-3d60e5b0-2995-4d5f-9bc1-d85b87eed782.png)
